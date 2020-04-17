@@ -9,5 +9,4 @@ class SensorData(models.Model):
     timestamp = models.DateTimeField(blank=True, null=True)
 
     class Meta:
-        managed = False
         db_table = 'production_data'
