@@ -10,7 +10,7 @@ class Command(BaseCommand):
         pass
 
     def handle(self, *args, **options):
-        sensor_type = ['Temprature', 'Proximity', 'Accelerometer', 'Pressure', 'Light']
+        sensor_type = ['Temperature', 'Proximity', 'Accelerometer', 'Pressure', 'Light']
         for i in range(0, 250):
          timestamp = (datetime.datetime.now()- datetime.timedelta(days=250)) + datetime.timedelta(days=i)
          reading = random.randint(40,100)
