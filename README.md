@@ -34,6 +34,4 @@ Screenshots of UI -
 
 ![image](https://user-images.githubusercontent.com/10773085/79552089-30d7ac80-80b8-11ea-99cb-f24261598588.png)
 
-![image](https://user-images.githubusercontent.com/10773085/79552221-5f558780-80b8-11ea-8f6d-e4a30b66a372.png)
-
 
