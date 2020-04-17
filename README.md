@@ -11,7 +11,7 @@ Development of API has been done in Django and standard MVT (Model, View, Templa
 For UI, I have pushed some dummy data based on one example that was given in assignment PDF.
 
 # Tech Stack
-Dango
+Django
 VueJs, Jquery, Gstatic Chart
 
 
