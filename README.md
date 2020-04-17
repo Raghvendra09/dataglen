@@ -37,3 +37,23 @@ Screenshots of UI -
 ![image](https://user-images.githubusercontent.com/10773085/79552773-1d791100-80b9-11ea-94d5-d341476a7922.png)
 
 
+# Steps for local setup-
+
+Install postgres server.
+
+Create database with name -> `dataglen`.
+
+Create db user with name -> `webapi`.
+
+Set password for user webapi -> `password` 
+
+After setting up db, create virtual enviorment and install requirements by `pip install -r requirements.txt`.
+
+Create table in db using `python3 manage.py makemigrations` followed by `python3 manage.py migrate`.
+
+Popluate dummy data using `python3 manage.py dumy_data`.
+
+Run local server using `python3 manage.py runserver`.
+
+Go to browser and enter `http://127.0.0.0.1:8000`.
+
