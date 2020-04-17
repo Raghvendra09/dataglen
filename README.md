@@ -19,7 +19,7 @@ For authentication in `POST` method, hard code token (defined in `settings.py`) 
 been used to validate data received from device (in this case `POSTMAN`) and if data isn't valid, I have dumped it in a text file
 so that data doesn't get lost.
 
-A management command has also been added to populate dummy data. Command can be found in `work/management/commands/dummay_data.py`.
+A management command has also been added to populate dummy data. Command can be found in `work/management/commands/populate_dummy_data.py`.
 
 
 For storing data, I have used postgres database and django model has been defined in `work/models.py` file. 
@@ -51,7 +51,7 @@ After setting up db, create virtual enviorment and install requirements by `pip 
 
 Create table in db using `python3 manage.py makemigrations` followed by `python3 manage.py migrate`.
 
-Popluate dummy data using `python3 manage.py dumy_data`.
+Popluate dummy data using `python3 manage.py populate_dummy_data`.
 
 Run local server using `python3 manage.py runserver`.
 
