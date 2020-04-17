@@ -15,7 +15,7 @@ Django
 VueJs, Jquery, Gstatic Chart
 
 
-For authentication in `POST` method, hard code token (defined in `settings.py`) has been used. Afer authentication, `Jsonschema` has
+For authentication in `POST` method, hard code token (defined in `settings.py`) has been used. After authentication, `Jsonschema` has
 been used to validate data received from device (in this case `POSTMAN`) and if data isn't valid, I have dumped it in a text file
 so that data doesn't get lost.
 
@@ -25,7 +25,7 @@ A management command has also been added to populate dummy data. Command can be 
 For storing data, I have used postgres database and django model has been defined in `work/models.py` file. 
 
 For the frontend, as instructed in assingment PDF, there is one dropdown to select sensor type and there is an option to select
-`Start Date` and `End Date` if we wish to apply date range filter.Data gets updated in table and chart become visible based
+`Start Date` and `End Date` if we wish to apply date range filter. Data gets updated in table and chart become visible based
 on filter applied in sensor type.
 
 Chart won't be visible in case of `All` is selected in sensor type dropdown.
